@@ -1,0 +1,767 @@
+body {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 95vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*toppen af siden navition og logo*/
+
+header {
+    height: 15vw;
+}
+.logo {
+    width: 15vw;
+    height: 15vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.logo img {
+    height: 15vw;
+}
+.logo img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.links {
+    width: 34vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    width: 10vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3.8vw;
+}
+nav a {
+    width: 10vw;
+    height: 3.2vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    display: block;
+    letter-spacing: 0.6vw;
+    font-weight: 900;
+}
+nav a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*de to streger under navigation*/
+
+.topbox {
+    height: 2vw;
+    border-bottom: solid;
+    border-bottom-style: double;
+    border-bottom-width: 0.7vw;
+}
+
+/*overskrift*/
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    letter-spacing: 8px;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-top: 5vw;
+}
+
+/*underoverkrift*/
+
+h2 {
+    font-size: 1.8vw;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.8vw;
+    letter-spacing: 4px;
+    font-weight: 600;
+    width: 23vw;
+    text-align: left;
+    float: left;
+}
+
+/*text*/
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* OM ANNA*/
+
+.streg {
+    border-top: solid;
+    border-width: 0.1vw;
+    margin-top: -1vw;
+}
+.sectionwrapper_about {
+    padding: 4vw;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.billedtext p {
+    font-size: 12px;
+}
+.billed_anna {
+    width: 60vw;
+    vertical-align: top;
+}
+.billed_anna img {
+    width: 60vw;
+}
+.textbox_about {
+    width: 60vw;
+    margin-top: 5vw;
+}
+.textbox h2 {
+    width: 60vw;
+}
+.text_about {
+    width: 60vw;
+}
+.text_about a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+/*Folk der taler godt om anna(biteme og simple)*/
+
+.sectionwrapper_biteme_simple {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    background-color: #E9D6C5;
+}
+.bitme {
+    padding: 2vw;
+    width: 25vw;
+    display: inline-block;
+}
+.bitme p {
+    width: 26vw;
+    font-size: 14px;
+    font-style: italic;
+}
+.simple {
+    padding: 2vw;
+    width: 25vw;
+    vertical-align: top;
+    display: inline-block;
+}
+.simple p {
+    width: 26vw;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/*Folk der taler godt om anna(tine og silja)*/
+
+.sectionwrapper_conference_silja {
+    margin-top: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    background-color: #E9D6C5;
+}
+.conference {
+    padding: 2vw;
+    width: 25vw;
+    display: inline-block;
+}
+.conference p {
+    width: 26vw;
+    font-size: 14px;
+    font-style: italic;
+}
+.silja {
+    padding: 2vw;
+    width: 25vw;
+    vertical-align: top;
+    display: inline-block;
+}
+.silja p {
+    width: 26vw;
+    font-size: 14px;
+    font-style: italic;
+}
+.afsender p {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/*streg under collabroations*/
+
+.collabroations {
+    padding: 10vw;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11vw;
+}
+.streg2 {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid;
+    border-width: 0.1vw;
+    margin-top: 4.5vw;
+}
+
+/*alle logoer og tekster om samarbejdspartner*/
+
+.logoref_col {
+    margin-left: auto;
+    margin-right: auto;
+    width: 22vw;
+    padding: 7vw;
+    display: inline-block;
+}
+.logoref_col img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    display: inline-block;
+}
+.logoref_col_text {
+    margin-left: 1vw;
+    width: 10vw;
+    height: 4vw;
+    display: inline-block;
+    vertical-align: inherit;
+}
+.logoref_col_text a {
+    margin-top: 1vw;
+    color: black;
+}
+.sectionwrapper_colla {
+    width: 75vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*facebook instagram*/
+
+.sociallink {
+    margin-top: 4vw;
+    width: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+}
+.facebook {
+    width: 3vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.facebook img {
+    width: 2.5vw;
+}
+.facebook img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.instagram {
+    width: 3vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.instagram img {
+    width: 2.5vw;
+}
+.instagram img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*tablet lavformat*/
+
+@media screen and (min-width:628px) and (max-width:1024px) {
+    /*    hele top menuen logo og navigation*/
+    header {
+        height: 20vw;
+    }
+    .links {
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 10vw;
+        margin-top: 5vw;
+    }
+    nav a {
+        width: 15vw;
+        height: 4.4vw;
+        font-size: 1.7vw;
+    }
+    .logo {
+        width: 20vw;
+        height: 20vw;
+    }
+    .logo img {
+        height: 20vw;
+    }
+    /*    skriftstørrelse*/
+    p {
+        font-size: 15px;
+    }
+    /*overskrift*/
+    h1 {
+        width: 15vw;
+        font-size: 3.2vw;
+    }
+    /*underoverskrift*/
+    h2 {
+        font-size: 2vw;
+    }
+    h3 {
+        font-size: 2vw;
+    }
+    /*    textbox større anna about*/
+    .text_about {
+        width: 60vw;
+    }
+    /*        collabroation*/
+    .sectionwrapper_colla {
+        padding: 1vw;
+        width: 60vw;
+        margin-right: 0vw;
+        margin-left: 10vw;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 13vw;
+    }
+    .facebook {
+        width: 3vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 3.5vw;
+    }
+    .instagram {
+        width: 3vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 3.5vw;
+    }
+}
+
+/*tablet højformat*/
+
+@media screen and (orientation: portrait) and (max-width: 768px) {
+    /*    hele top menuen navigation og log0*/
+    header {
+        height: 25vw;
+    }
+    .links {
+        width: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 15vw;
+        margin-top: 8vw;
+    }
+    nav a {
+        width: 20vw;
+        height: 4.4vw;
+        font-size: 2vw;
+    }
+    .logo {
+        width: 25vw;
+        height: 25vw;
+    }
+    .logo img {
+        height: 25vw;
+    }
+    /*  ting folk siger godt om anna*/
+    .bitme {
+        padding: 4vw;
+        width: 52vw;
+        display: block;
+    }
+    .bitme p {
+        width: 52vw;
+    }
+    .simple {
+        padding: 4vw;
+        width: 52vw;
+        vertical-align: top;
+        display: block;
+    }
+    .simple p {
+        width: 52vw;
+    }
+    .conference {
+        padding: 4vw;
+        width: 52vw;
+        display: inline-block;
+    }
+    .conference p {
+        width: 52vw;
+    }
+    .silja {
+        padding: 4vw;
+        width: 52vw;
+        vertical-align: top;
+        display: block;
+    }
+    .silja p {
+        width: 52vw;
+        font-size: 14px;
+        font-style: italic;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 15vw;
+    }
+    .facebook {
+        width: 5vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 4.5vw;
+    }
+    .instagram {
+        width: 5vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 4.5vw;
+    }
+}
+
+/*mobil landscape*/
+
+@media screen and (orientation: landscape) and (max-width: 690px) {
+    /*    hele top menuen navigation og logo*/
+    header {
+        height: 25vw;
+    }
+    .links {
+        width: 44vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 15vw;
+        margin-top: -1vw;
+    }
+    nav a {
+        width: 20vw;
+        height: 3vw;
+        font-size: 2.5vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .logo {
+        width: 25vw;
+        height: 25vw;
+    }
+    .logo img {
+        height: 25vw;
+    }
+    /*    streg under navigation*/
+    .topbox {
+        border-bottom-width: 1vw;
+    }
+    /*overskrift*/
+    h1 {
+        width: 19vw;
+        font-size: 4vw;
+    }
+    /*underoverskrift*/
+    h2 {
+        font-size: 2.5vw;
+        letter-spacing: 4px;
+        font-weight: 600;
+    }
+    h3 {
+        font-size: 2.5vw;
+        letter-spacing: 4px;
+        font-weight: 600;
+    }
+    /*text størrelse*/
+    p {
+        font-size: 15px;
+    }
+    /*  ting folk siger godt om anna*/
+    .bitme {
+        padding: 2vw;
+        width: 52vw;
+        display: block;
+    }
+    .bitme p {
+        width: 52vw;
+    }
+    .simple {
+        padding: 4vw;
+        width: 52vw;
+        vertical-align: top;
+        display: block;
+    }
+    .simple p {
+        width: 52vw;
+    }
+    .conference {
+        padding: 4vw;
+        width: 52vw;
+        display: inline-block;
+    }
+    .conference p {
+        width: 52vw;
+    }
+    .silja {
+        padding: 4vw;
+        width: 52vw;
+        vertical-align: top;
+        display: block;
+    }
+    .silja p {
+        width: 52vw;
+        font-size: 14px;
+        font-style: italic;
+    }
+    /*    Streg under collabroation*/
+    .streg2 {
+        margin-top: 5.7vw;
+    }
+    .sectionwrapper_colla {
+        margin-top: -10vw;
+        padding: 0vw;
+        width: 60vw;
+        margin-right: 0vw;
+        margin-left: 10vw;
+        display: block;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 16vw;
+    }
+    .facebook {
+        width: 5vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 5vw;
+    }
+    .instagram {
+        width: 5vw;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 5vw;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+
+/*mobil højformat*/
+
+@media screen and (orientation: portrait) and (max-width:690px) {
+    /*    hele top menuen navigation og logo*/
+    header {
+        height: 40vw;
+    }
+    .links {
+        width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 30vw;
+        margin-top: 0vw;
+    }
+    nav a {
+        width: 35vw;
+        height: 3vw;
+        font-size: 4vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+    .logo {
+        width: 40vw;
+        height: 40vw;
+    }
+    .logo img {
+        height: 40vw;
+    }
+    /*    de to streger */
+    .topbox {
+        border-bottom-width: 1.7vw;
+    }
+    /*overskrift*/
+    h1 {
+        width: 19vw;
+        font-size: 4vw;
+    }
+    /*underoverskrift*/
+    h2 {
+        font-size: 3vw;
+        letter-spacing: 4px;
+        font-weight: 600;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    /*    text about anna*/
+    .sectionwrapper_about {
+        padding: 4vw;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .billed_anna {
+        width: 60vw;
+        vertical-align: top;
+    }
+    .billed_anna img {
+        width: 80vw;
+    }
+    .textbox_about {
+        width: 80vw;
+        margin-top: 5vw;
+    }
+    .text_about {
+        width: 80vw;
+    }
+    /*    streg under collabroation*/
+    .streg2 {
+        margin-top: 6.2vw;
+    }
+    /*text størrelse*/
+    p {
+        font-size: 15px;
+    }
+    /*  ting folk siger godt om anna*/
+    /*    bite me og simple*/
+    .sectionwrapper_biteme_simple {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+    }
+    .bitme {
+        padding: 4vw;
+        width: 80vw;
+        display: block;
+    }
+    .bitme p {
+        width: 72vw;
+    }
+    .simple {
+        padding: 4vw;
+        display: block;
+    }
+    .simple p {
+        width: 72vw;
+    }
+    /*    Silja og conference*/
+    .sectionwrapper_conference_silja {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+    }
+    .conference {
+        padding: 4vw;
+        width: 72vw;
+    }
+    .conference p {
+        width: 72vw;
+    }
+    .silja {
+        padding: 4vw;
+        width: 72vw;
+    }
+    .silja p {
+        width: 72vw;
+    }
+    .sectionwrapper_colla {
+        padding: 0vw;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .logoref_col {
+        margin-left: auto;
+        margin-right: auto;
+        width: 35vw;
+        height: 45vw;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        display: block;
+    }
+    .logoref_col img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 30vw;
+        display: inline-block;
+    }
+    .logoref_col_text {
+        margin-left: 1vw;
+        width: 30vw;
+        height: 10vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: sub;
+        text-align: left;
+    }
+    .logoref_col_text a {
+        width: 30vw;
+        margin-top: 1vw;
+        font-size: 3vw;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 20vw;
+    }
+    .facebook {
+        width: 7vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 7vw;
+    }
+    .instagram {
+        width: 7vw;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 7vw;
+    }
+    footer {
+        font-size: 12px;
+    }
+}

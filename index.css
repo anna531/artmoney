@@ -1,0 +1,360 @@
+body {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 95vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*toppen af siden*/
+
+header {
+    height: 15vw;
+}
+.logo {
+    width: 15vw;
+    height: 15vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.logo img {
+    height: 15vw;
+}
+.logo img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.links {
+    width: 34vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    width: 10vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3.8vw;
+}
+nav a {
+    width: 10vw;
+    height: 3.2vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    display: block;
+    letter-spacing: 0.6vw;
+    font-weight: 900;
+}
+nav a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*de to streger*/
+
+.topbox {
+    height: 0.5vw;
+    border-bottom: solid;
+    border-bottom-style: double;
+    border-bottom-width: 0.7vw;
+}
+
+/*forsidebillede*/
+
+.frontpic {
+    margin-top: 2vw;
+    background-image: url(pics/forsidedesktop2.jpg);
+    height: 40vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.billedtext p {
+    font-size: 12px;
+}
+
+/*facebook instagram*/
+
+.sociallink {
+    margin-top: 4vw;
+    width: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+}
+.facebook {
+    width: 3vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.facebook img {
+    width: 2.5vw;
+}
+.facebook img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.instagram {
+    width: 3vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.instagram img {
+    width: 2.5vw;
+}
+.instagram img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*bund text*/
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    width: 95vw;
+    display: inline-block;
+    text-align: center;
+    padding: 2vw 0vw;
+    margin-left: -9px;
+    margin-bottom: -9px;
+    font-size: 16px;
+}
+
+/*tablet lavformat*/
+
+@media screen and (min-width:628px) and (max-width:1024px) {
+    /*    hele top menuen*/
+    header {
+        height: 20vw;
+    }
+    .links {
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 10vw;
+        margin-top: 5vw;
+    }
+    nav a {
+        width: 15vw;
+        height: 4.4vw;
+        font-size: 1.7vw;
+    }
+    .logo {
+        width: 20vw;
+        height: 20vw;
+    }
+    .logo img {
+        height: 20vw;
+    }
+    .frontpic {
+        background-image: url(pics/tabletlavformat2.jpg);
+        height: 56vw;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 13vw;
+    }
+    .facebook {
+        width: 3vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 3.5vw;
+    }
+    .instagram {
+        width: 3vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 3.5vw;
+    }
+}
+
+/*tablet højformat*/
+
+@media screen and (orientation: portrait) and (max-width: 768px) {
+    /*    hele top menuen*/
+    header {
+        height: 25vw;
+    }
+    .links {
+        width: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 15vw;
+        margin-top: 8vw;
+    }
+    nav a {
+        width: 20vw;
+        height: 4.4vw;
+        font-size: 2vw;
+    }
+    .logo {
+        width: 25vw;
+        height: 25vw;
+    }
+    .logo img {
+        height: 25vw;
+    }
+    .frontpic {
+        background-image: url(pics/tablethoejformat2.jpg);
+        height: 88vw;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 15vw;
+    }
+    .facebook {
+        width: 5vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 4.5vw;
+    }
+    .instagram {
+        width: 5vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 4.5vw;
+    }
+}
+
+/*mobil landscape*/
+
+@media screen and (orientation: landscape) and (max-width: 690px) {
+    /*    hele top menuen*/
+    header {
+        height: 25vw;
+    }
+    .links {
+        width: 44vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 15vw;
+        margin-top: -1vw;
+    }
+    nav a {
+        width: 20vw;
+        height: 3vw;
+        font-size: 2.5vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .logo {
+        width: 25vw;
+        height: 25vw;
+    }
+    .logo img {
+        height: 25vw;
+    }
+    .topbox {
+        border-bottom-width: 1vw;
+    }
+    .frontpic {
+        background-image: url(pics/mobillavformat2.jpg);
+        height: 35vw;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 16vw;
+    }
+    .facebook {
+        width: 5vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 5vw;
+    }
+    .instagram {
+        width: 5vw;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 5vw;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+
+/*mobil portrait*/
+
+@media screen and (orientation: portrait) and (max-width:690px) {
+    .frontpic {
+        background-image: url(pics/tablethoejformat2.jpg);
+        height: 88vw;
+    }
+    /*    hele top menuen*/
+    header {
+        height: 40vw;
+    }
+    .links {
+        width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 30vw;
+        margin-top: 0vw;
+    }
+    nav a {
+        width: 35vw;
+        height: 3vw;
+        font-size: 4vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+    .logo {
+        width: 40vw;
+        height: 40vw;
+    }
+    .logo img {
+        height: 40vw;
+    }
+    .topbox {
+        border-bottom-width: 1.7vw;
+    }
+    /*    Facebook instagram*/
+    .sociallink {
+        width: 20vw;
+    }
+    .facebook {
+        width: 7vw;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1vw;
+    }
+    .facebook img {
+        width: 7vw;
+    }
+    .instagram {
+        width: 7vw;
+        padding: 1vw;
+    }
+    .instagram img {
+        width: 7vw;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
